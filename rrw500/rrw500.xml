@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="augerWagon" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../shared/xml/schema/vehicle.xsd">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+
+    <parentFile xmlFilename="$data/vehicles/bergmann/rrw500/rrw500.xml">
+        <attributes>
+            <set path="vehicle.storeData.name" value="RRW 500 Plus"/>
+            <set path="vehicle.fillUnit.fillUnitConfigurations.fillUnitConfiguration.fillUnits.fillUnit(0)#fillTypes" value="POTATO SUGARBEET CARROT BEETROOT PARSNIP"/>
+         </attributes>
+    </parentFile>
+
+    <!-- ONLY FOR ICON GENERATION -->
+    <storeData>
+        <name>RRW 500</name>
+        <image>$data/vehicles/bergmann/rrw500/store_rrw500.png</image>
+        <brand>BERGMANN</brand>
+        <category>augerWagons</category>
+    </storeData>
+</vehicle>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="92">
+	<author>johnwayne1930</author>
+	<version>1.0.0.0</version>
+	
+	<title>
+		<en>Root Crop Cart Plus</en>
+	</title>
+	
+	<description>
+<en><![CDATA[
+Hawe UW 2000 Plus
+Price: 125,000 $
+Fillvolume: 24,000 L
+Filltype: potatoes sugarbeet carrot parsnip beetroot
+
+Bergmann RRW 500 Plus 
+Price: 137,500 $
+Fillvolume: 50,700 L
+Filltype: potatoes sugarbeet carrot parsnip beetroot parsnip ricelonggrain rice greenbean pea spinach
+]]></en>
+<de><![CDATA[
+Hawe UW 2000 Plus
+Preis: 125.000 €
+Füllvolumen: 24.000 L
+Fülltyp: Kartoffel Zuckerrüben Karotten Pastinaken Rote-Beete Langkornreis Reis Buschbohnen Erbsen Spinat
+
+Bergmann RRW 500 Plus
+Preis: 137.500 €
+Füllvolumen: 50.700 L
+Fülltyp: Kartoffel Zuckerrüben Karotten Pastinaken Rote-Beete
+]]></de>
+	</description>
+	
+	<iconFilename>icon_rootCropCartPlus.dds</iconFilename>
+	<multiplayer supported="true"/>
+	
+	 <storeItems>
+		<storeItem xmlFilename="rrw500/rrw500.xml"/>
+		<storeItem xmlFilename="kuw2000/kuw2000.xml"/>
+	</storeItems>
+</modDesc>

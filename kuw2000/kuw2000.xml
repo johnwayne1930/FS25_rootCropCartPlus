@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="augerWagon" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../shared/xml/schema/vehicle.xsd">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+
+    <parentFile xmlFilename="$data/vehicles/hawe/kuw2000/kuw2000.xml">
+        <attributes>
+            <set path="vehicle.storeData.name" value="KUW 2000 Plus"/>
+            <set path="vehicle.fillUnit.fillUnitConfigurations.fillUnitConfiguration.fillUnits.fillUnit(0)#fillTypes" value="POTATO SUGARBEET CARROT BEETROOT PARSNIP RICELONGGRAIN RICE GREENBEAN PEA SPINACH"/>
+         </attributes>
+    </parentFile>
+
+    <!-- ONLY FOR ICON GENERATION -->
+    <storeData>
+        <name>KUW 2000</name>
+        <image>$data/vehicles/hawe/kuw2000/store_kuw2000.png</image>
+        <brand>HAWE</brand>
+        <category>augerWagons</category>
+    </storeData>
+</vehicle>
